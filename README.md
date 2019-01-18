@@ -11,5 +11,5 @@ Stay away from using front-end frameworks, such as Bootstrap, Foundation, and Bu
 
 [Challenge from FrontendMentor](https://www.frontendmentor.io/challenges/fylo-landing-page-227273)
 
-## Design
-![](https://i.ibb.co/bmZbptn/Screenshot-2019-01-18-Frontend-Mentor-Beta-sign-up-split-layout-Challenge.png)
+## Final outcome
+![Desktop](https://i.ibb.co/bmZbptn/Screenshot-2019-01-18-Frontend-Mentor-Beta-sign-up-split-layout-Challenge.png)
