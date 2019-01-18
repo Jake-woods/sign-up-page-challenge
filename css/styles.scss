@@ -1,14 +1,140 @@
+$headingFont: 'Raleway';
+$mainFont: 'Open Sans';
+$clr-grey: hsl(0, 0%, 50%);
+
 * {
    box-sizing: border-box;
    font-family: inherit;
 }
 
-.attribution {
-   font-size: 11px;
-   text-align: center;
+body {
+   background: #F1F1F1;
+   font-family: $mainFont, Arial, Helvetica, sans-serif;
+}
 
-   a {
-      color: hsl(228, 45%, 44%);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color: #333;
+   font-family: $headingFont, Arial, Helvetica, sans-serif;
+}
 
+
+div.container {
+   box-shadow: 1px 1px 10px rgba(51, 51, 51, 0.151);
+   display: flex;
+   flex-flow: row nowrap;
+   height: auto;
+   min-height: 100vh;
+   max-width: 70em;
+   margin: 1.5em auto;
+
+   section#section-img {
+      align-items: center;
+      background: #1e5799;
+      background: linear-gradient(45deg, rgb(121, 114, 218) 0%, #1E1777 100%);
+      display: flex;
+      flex-basis: 50%;
+      justify-content: center;
+
+      img {
+         display: block;
+         width: 75%;
+      }
+   }
+
+   aside {
+      background: #FFFFFF;
+      display: flex;
+      flex-flow: column nowrap;
+      flex-basis: 50%;
+      justify-content: space-between;
+      padding: 2em;
+
+      header {
+
+         ul {
+            align-items: center;
+            display: flex;
+            justify-content: flex-end;
+            list-style-type: none;
+            padding: 0;
+
+            li {
+               margin: 0 .75em;
+
+               &:first-child {
+                  margin-right: auto;
+               }
+
+               a {
+                  color: $clr-grey;
+                  font-size: 1.15rem;
+
+                  img {
+                     display: block;
+                     width: 75%;
+                  }
+               }
+            }
+         }
+      }
+
+      section#section-info {
+         h1 {
+            font-size: 1.75rem;
+         }
+
+         p {
+            color: $clr-grey;
+            line-height: 1.5;
+         }
+      }
+
+      section#section-signup {
+         margin-bottom: 3em;
+
+         h2 {
+            font-size: 1.35rem;
+         }
+
+         form {
+            display: flex;
+
+            input {
+               border: 0;
+               border-radius: .1em;
+               padding: 1em;
+            }
+
+            input[type=text] {
+               box-shadow: 1px 1px 5px rgba(51, 51, 51, 0.295);
+               flex-basis: 70%;
+               margin-right: .5em;
+            }
+
+            input[type=submit] {
+               background: #06D79D;
+               color: #fff;
+               cursor: pointer;
+               flex-basis: 30%;
+               font-weight: 600;
+               padding: 1em 2em;
+            }
+         }
+      }
+
+      footer {
+         text-align: right;
+
+         a {
+            color: darken($clr-grey, 10);
+            font-size: .95rem;
+            text-decoration: none;
+         }
+      }
    }
 }
