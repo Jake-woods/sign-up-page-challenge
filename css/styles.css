@@ -161,4 +161,37 @@ div.container aside footer a {
   font-size: .95rem;
   text-decoration: none;
 }
+
+@media (max-width: 30em) {
+  div.container {
+    background: #fff;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  div.container section#section-img {
+    background: url("../img/bg-intro.svg");
+    background-size: cover;
+    min-height: 75vh;
+    position: relative;
+  }
+  div.container section#section-img img {
+    width: 60%;
+  }
+  div.container aside header {
+    position: absolute;
+    top: 2em;
+    left: 0;
+    width: 100%;
+    z-index: 11;
+  }
+  div.container aside header ul li a {
+    color: #fff;
+  }
+  div.container aside header ul li a img {
+    -webkit-filter: invert(100%);
+            filter: invert(100%);
+  }
+}
 /*# sourceMappingURL=styles.css.map */
