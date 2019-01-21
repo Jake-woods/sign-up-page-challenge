@@ -13,3 +13,4 @@ Stay away from using front-end frameworks, such as Bootstrap, Foundation, and Bu
 
 ## Final outcome (Desktop and Mobile views)
 ![Desktop](https://i.ibb.co/bmZbptn/Screenshot-2019-01-18-Frontend-Mentor-Beta-sign-up-split-layout-Challenge.png)
+![Mobile](https://i.ibb.co/rGM9QRF/Screenshot-2019-01-21-Frontend-Mentor-Beta-sign-up-split-layout-Challenge.png)
